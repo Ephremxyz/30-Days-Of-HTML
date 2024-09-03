@@ -81,11 +81,11 @@
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
   <a class="header-badge" target="_blank" href="https://www.instagram.com/ephremxyz">
-  <img alt="Instagram Follow" src="https://img.shields.io/Instagram/follow/ephremxyz?style=social">
+  <img alt="Instagram Follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png">
   </a>
 
 <sub>Author:
-<a href="https://www.linkedin.com/in/ephremxyx" target="_blank">Asabeneh Yetayeh</a><br>
+<a href="https://www.linkedin.com/in/ephremxyx" target="_blank">Ephrem Getachew</a><br>
 <small> September, 2024</small>
 </sub>
 
