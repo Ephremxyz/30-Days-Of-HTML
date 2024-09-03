@@ -81,7 +81,7 @@
   <img src="https://img.shields.io/badge/style--5eba00.svg?label=LinkedIn&logo=linkedin&style=social">
   </a>
   <a class="header-badge" target="_blank" href="https://www.instagram.com/ephremxyz">
-  <img alt="Instagram Follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" style= width:50px >
+  <img alt="Instagram Follow" src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png&style=social" >
   </a>
 
 <sub>Author:
