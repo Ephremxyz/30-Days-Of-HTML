@@ -1,0 +1,37 @@
+body{
+    background-color:;
+}
+
+
+
+video{
+    max-width: 75%;
+    
+}
+
+meter{
+    height: 50px; 
+    width: 50px;
+}
+
+pre span{ color: green;
+}
+
+table{
+    width: ;
+    margin: ;
+}
+
+table , td , th{
+    border: 2px solid rgb(127, 210, 127);
+    border-collapse: collapse;
+}
+
+td{
+    padding-left: 10px;
+}
+
+thead{
+    background-color: rgb(106, 215, 106);
+    color: white;
+}
