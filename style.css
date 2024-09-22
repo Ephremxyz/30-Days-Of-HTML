@@ -1,37 +1,45 @@
-body{
-    background-color:;
+    /*css selectors
+    By tagname 
+    by selectors
+    by class 
+    by attribute*/
+
+/* universal selector * it selects everything */
+
+
+
+    body{
+        background-color: rgb(190, 174, 205);
+    }
+
+
+    header{
+    padding:50px ;
+    background-color:rgb(234, 179, 76) ;
+
 }
+/* id for specific or unique */
+    #CSET{
+        color: rgb(87, 163, 87);
+        font-size: 60px;
+        padding: 10px;
+    }
+
+    #ACADEMY{
+        color: rgb(195, 107, 107);
+        font-size: 60px;
+        padding: 10px;
+    }
 
 
+    #Libraris{
+        padding: 30px;
+        background-color:rgb(185, 131, 31) ;
+    }
 
-video{
-    max-width: 75%;
-    
-}
-
-meter{
-    height: 50px; 
-    width: 50px;
-}
-
-pre span{ color: green;
-}
-
-table{
-    width: ;
-    margin: ;
-}
-
-table , td , th{
-    border: 2px solid rgb(127, 210, 127);
-    border-collapse: collapse;
-}
-
-td{
-    padding-left: 10px;
-}
-
-thead{
-    background-color: rgb(106, 215, 106);
-    color: white;
-}
+/* class for commen goal */
+    .Technologies{
+        padding: 30px;
+        background-color: rgb(198, 189, 69);
+    }
+   
