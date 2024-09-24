@@ -43,3 +43,25 @@
         background-color: rgb(198, 189, 69);
     }
    
+ /* Css Box Model
+    all html elements can be considerd as boxes 
+    -Margine 
+    -Border
+    -Padding
+    -Content
+
+
+    */
+ 
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+    #box1{
+        width: 300px;
+        height: 150px;
+        border: 150px solid red;
+        padding:50px 50px  ;
+       
+        
+    }
