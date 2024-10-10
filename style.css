@@ -1,26 +1,49 @@
     /*css selectors
     By tagname 
-    by selectors 
-    by class     
-    by attribute*/         
-             
-/* universal selector * it selects everything */              
-    
-    body{  
-        background-color: rgb(190, 174, 205);
-    }
+    by selectors
+    by class 
+    by attribute*/
+
+/* universal selector * it selects everything */
 
 
-    header{
-    padding:50px ;
-    background-color:rgb(234, 179, 76) ;
+  /*css colors
+  -There are 144 colors 
+  -RGB value 
+   RGB(0,0,0) 
 
+  -Hexadecimal value 
+   #ff,ff,ff 
+   the value of f is '15'
+   25*16*15*1 255 */
+
+body{
+    background-color: rgb(190, 174, 205);
+    font-family: "Inconsolata", monospace;
 }
+   
+main{
+    padding: 50px;
+    margin-top: 100px;  
+}
+
+header{
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+    position:fixed;
+    background-color:rgb(234, 179, 76) ;
+   
+}
+
+
 /* id for specific or unique */
     #CSET{
         color: rgb(87, 163, 87);
         font-size: 60px;
         padding: 10px;
+        
     }
 
     #ACADEMY{
@@ -36,26 +59,27 @@
     }
 
 /* class for commen goal */
+
     .Technologies{
         padding: 30px;
         background-color: rgb(198, 189, 69);
     }
    
- /* Css Box Model
+
+    /* Css Box Model
     all html elements can be considerd as boxes 
     -Margine 
     -Border
     -Padding
-    -Content
+    -Content */
 
-
-    */
- 
-*{
+/*
+ *{
     margin: 0px;
     box-sizing: border-box;
 }
-    #box1{
+    
+#box1{
         width: 300px;
         height: 150px;
         border: 150px solid red;
@@ -63,3 +87,97 @@
        
         
     }
+*/
+
+/*Css Position
+position static
+Positon Relative - changed to like ocean
+Position absolute - the closeset Html element
+position fixed 
+position stiki
+*/
+
+.box-wrapper{
+    position: relative;
+    background-color: lightblue;
+    height: 400px;
+    width: 100%;
+    padding: 0;
+
+
+
+}
+
+    .box{
+        margin: 0px auto ;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        font-size: 60px;
+        border: 10px solid white;
+        border-radius: 0px;
+        display: inline-block;
+        position: absolute;
+    }
+
+    #box1{
+        background-color: green;
+        bottom: 0px;
+        left: 0px;
+    }
+
+    #box2{
+        background-color: yellow;
+        top: 0px;
+        left: 0px;
+    }
+
+    #box3{
+        background-color: red;
+        right: 0px;      
+        top: 0px;
+
+    }
+    #box4{
+        background-color: blue;
+        right: 0px;
+        bottom: 0px;
+    }
+
+    
+    /* Display property*/
+
+ #test{
+    display: inline-block;
+    border: 2px solid red;
+    width: 150px;
+    height: 100px;
+    line-height: 100px;
+    padding: 5px;
+}
+
+/*Positions*/
+
+.Tec{
+        margin: 0px auto ;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+        line-height: 100px;
+        border: 10px solid white;
+        border-radius: 0px;
+        position: absolute;
+        left: 200px;
+        top
+    }
+  
+#Html{
+
+}
+#Css{
+
+}
+#Js{
+
+}
