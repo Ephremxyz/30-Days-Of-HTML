@@ -173,11 +173,52 @@ position stiki
     }
   
 #Html{
-
+    z-index: 3;
+    background-color: orangered;
 }
 #Css{
-
+    z-index: 1;
+left: 580px;
+background-color: blue;
+top: 165px;
 }
 #Js{
+    z-index: 2;
+left: 730px;
+background-color: yellow;
+top: 180px;
+}
 
+/* Sticky Position
+stops by making top:0; */
+
+.sticky{
+   position: sticky;
+   top: 0; 
+}
+
+/* over flow
+
+*/
+
+html{
+    overflow-x: hidden;
+}
+
+
+/* Navigaation or Menue List*/
+
+.menu-List{
+    background-color: indigo;
+    padding: 30px;
+}
+
+.menu-List li {
+display: inline-block;
+margin-right: 15px;
+}
+
+.menu-List li a {
+    color: white;
+    text-decoration:none ;
 }
