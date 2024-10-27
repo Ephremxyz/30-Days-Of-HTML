@@ -1,12 +1,12 @@
     /*css selectors
     By tagname 
-    by selectors 
-    by class   
-    by attribute*/      
-    
-/* universal selector * it selects everything */      
- 
- 
+    by selectors
+    by class 
+    by attribute*/
+
+/* universal selector * it selects everything */
+
+
   /*css colors
   -There are 144 colors 
   -RGB value 
@@ -17,10 +17,7 @@
    the value of f is '15'
    25*16*15*1 255 */
 
-body{
-    background-color: rgb(190, 174, 205);
-    font-family: "Inconsolata", monospace;
-}
+
    
 main{
     padding: 50px;
@@ -29,14 +26,47 @@ main{
 
 header{
     width: 100%;
-    z-index: 100;
     top: 0px;
     left: 0px;
+    z-index: 100;
     position:fixed;
     background-color:rgb(234, 179, 76) ;
-   
+    padding: 20px;
+    text-align: center;
 }
 
+#title-1{
+    font-size: 44px;
+    text-transform: capitalize;
+    text-align: center;
+    margin: 15px;
+}
+
+/* Navigaation or Menue List*/
+
+.menu-List{
+    padding: 15px;
+}
+
+.menu-List li {
+display: inline-block;
+margin-right: 15px;
+}
+
+.menu-List li a {
+    color: white;
+    text-decoration:none ;
+}
+
+main{
+    margin-top: 250px;
+    padding: 50px;
+}
+
+body{
+    background-color: rgb(168, 129, 205);
+    font-family: "poppins";
+}
 
 /* id for specific or unique */
     #CSET{
@@ -160,16 +190,15 @@ position stiki
 /*Positions*/
 
 .Tec{
-        margin: 0px auto ;
-        width: 100px;
-        height: 100px;
+       
+        width: 150px;
+        height: 150px;
         text-align: center;
-        line-height: 100px;
-        border: 10px solid white;
-        border-radius: 0px;
+        line-height: 150px;
         position: absolute;
-        left: 200px;
-        top
+        left: 450px;
+        top: 150px;
+        
     }
   
 #Html{
@@ -206,19 +235,4 @@ html{
 }
 
 
-/* Navigaation or Menue List*/
 
-.menu-List{
-    background-color: indigo;
-    padding: 30px;
-}
-
-.menu-List li {
-display: inline-block;
-margin-right: 15px;
-}
-
-.menu-List li a {
-    color: white;
-    text-decoration:none ;
-}
