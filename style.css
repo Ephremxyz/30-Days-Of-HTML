@@ -1,41 +1,11 @@
-     /*css selectors 
-    By tagname 
-    by selectors
-    by class        
-    by attribute*/      
-           
-/* universal selector * it selects everything */  
-
-  /*css colors
-  -There are 144 colors 
-  -RGB value 
-   RGB(0,0,0) 
-
-  -Hexadecimal value 
-   #ff,ff,ff 
-   the value of f is '15'
-   25*16*15*1 255 */
-
-
-   
-main{
-    padding: 50px;
-    margin-top: 100px;  
-}
-
-header{
-    width: 100%;
-    top: 0px;
-    left: 0px;
-    z-index: 100;
-    position:fixed;
-    background-color:rgb(234, 179, 76) ;
-    padding: 20px;
-    text-align: center;
+header,footer{  
+        padding: 3px;
+        text-align: center;
+        background:#d7de57; 
 }
 
 #title-1{
-    font-size: 44px;
+    font-size: 10px;
     text-transform: capitalize;
     text-align: center;
     margin: 15px;
@@ -55,139 +25,160 @@ margin-right: 15px;
 .menu-List li a {
     color: white;
     text-decoration:none ;
+    padding: 3px; 
+}
+
+.active{   
+    border-bottom:3px solid red ;
 }
 
 main{
-    margin-top: 250px;
-    padding: 50px;
+ 
+    padding:0px 50px 0px 50px;
 }
 
+
 body{
-    background-color: rgb(168, 129, 205);
-    font-family: "poppins";
+    
+    font-family:"Noto Sans Mono";
+    line-height: 160%;
+    margin: 0 0 150px 0;
+
+}
+
+.page-section{
+margin: 30px auto;
+padding: 30px;
+border-radius: 5px;
+}
+
+.Introduction{
+    background-color:rgb(88, 88, 163);
+}
+
+
+.tech-1{
+    background-color: rgb(11, 13, 72);
+    right: px;
+    bottom: 0px;
+}
+
+.tech-2{
+    background-color:  rgb(91, 91, 91);
+}
+
+.tech-3{
+    background-color: rgb(79, 43, 43);
+}
+
+.tech-4{
+    background-color:  rgb(91, 91, 91);
+}
+
+.tech-5{
+    background-color: rgb(44, 51, 56);
+}
+
+.photo{
+   float: right;
+}
+
+.meters{
+    background-color: black;
+    color: white;
+}
+
+.progress{
+background-color:purple;
+color: white;
+}
+
+/*Table Css*/
+table,td,th{
+border: 1px solid rgb(135, 80, 236);
+border-collapse: collapse;
+font-weight: ;
+}
+
+table{
+    width: 50%;
+    margin: 50 auto;
+}
+thead{
+    background-color: rgb(135, 80, 236) ;
+    color: white;
+}
+
+.detail-summary{
+    background-color: rgb(255, 213, 0);
+}
+
+.code-formatting{
+    background-color: brown;
+    color: white;
+}
+
+.address{
+    background-color: green;
+    color: white;
+}
+
+h1{
+    margin: 10px ;
+    text-transform: uppercase; 
+
+}
+img{
+    width: 10%;
+}
+
+.video-wrapper{
+text-align: center;
+background-color: #0077B5;
+border-radius: 10px;
+width: 80%;
+}
+
+video{
+    text-align: center;
+    width: 80%;
+}
+
+.audio {
+    margin: 25px auto;
+    background-colo: ;
+    border-radius: 10px;
+
+
+}
+
+.audio h2{
+    margin:5px ;
+    font-weight: 500;
 }
 
 /* id for specific or unique */
-    #CSET{
-        color: rgb(87, 163, 87);
-        font-size: 60px;
-        padding: 10px;
-        
-    }
-
-    #ACADEMY{
-        color: rgb(195, 107, 107);
-        font-size: 60px;
-        padding: 10px;
-    }
-
-
-    #Libraris{
-        padding: 30px;
-        background-color:rgb(185, 131, 31) ;
-    }
-
-/* class for commen goal */
-
-    .Technologies{
-        padding: 30px;
-        background-color: rgb(198, 189, 69);
-    }
-   
-
-    /* Css Box Model
-    all html elements can be considerd as boxes 
-    -Margine 
-    -Border
-    -Padding
-    -Content */
-
-/*
- *{
-    margin: 0px;
-    box-sizing: border-box;
-}
+#CSET{
+    color: rgb(87, 163, 87);
+    font-size: 60px;
+    padding: 10px;
     
-#box1{
-        width: 300px;
-        height: 150px;
-        border: 150px solid red;
-        padding:50px 50px  ;
-       
-        
-    }
-*/
-
-/*Css Position
-position static
-Positon Relative - changed to like ocean
-Position absolute - the closeset Html element
-position fixed 
-position stiki
-*/
-
-.box-wrapper{
-    position: relative;
-    background-color: lightblue;
-    height: 400px;
-    width: 100%;
-    padding: 0;
-
-
-
 }
 
-    .box{
-        margin: 0px auto ;
-        width: 100px;
-        height: 100px;
-        text-align: center;
-        line-height: 100px;
-        font-size: 60px;
-        border: 10px solid white;
-        border-radius: 0px;
-        display: inline-block;
-        position: absolute;
-    }
+#ACADEMY{
+    color: rgb(195, 107, 107);
+    font-size: 60px;
+    padding: 10px;
+}
 
-    #box1{
-        background-color: green;
-        bottom: 0px;
-        left: 0px;
-    }
 
-    #box2{
-        background-color: yellow;
-        top: 0px;
-        left: 0px;
-    }
+#Libraris{
+    padding: 30px;
+    background-color:rgb(185, 131, 31) ;
+}
 
-    #box3{
-        background-color: red;
-        right: 0px;      
-        top: 0px;
 
-    }
-    #box4{
-        background-color: blue;
-        right: 0px;
-        bottom: 0px;
-    }
-
-    
     /* Display property*/
-
- #test{
-    display: inline-block;
-    border: 2px solid red;
-    width: 150px;
-    height: 100px;
-    line-height: 100px;
-    padding: 5px;
-}
-
-/*Positions*/
-
 .Tec{
        
         width: 150px;
@@ -196,26 +187,10 @@ position stiki
         line-height: 150px;
         position: absolute;
         left: 450px;
-        top: 150px;
-        
+        top: 150px;   
     }
   
-#Html{
-    z-index: 3;
-    background-color: orangered;
-}
-#Css{
-    z-index: 1;
-left: 580px;
-background-color: blue;
-top: 165px;
-}
-#Js{
-    z-index: 2;
-left: 730px;
-background-color: yellow;
-top: 180px;
-}
+
 
 /* Sticky Position
 stops by making top:0; */
@@ -225,13 +200,75 @@ stops by making top:0; */
    top: 0; 
 }
 
-/* over flow
-
-*/
+/* over flow */
 
 html{
     overflow-x: hidden;
+    position: relative;
+    min-height: 100%;
 }
 
+/* Footer Css*/
+footer{
+    position: absolute;
+    bottom:0;
+    width: 100%;
+    padding: 2px;
+}
 
+.fa-github{
+    color: #171515 ;
+}
 
+.fa-linkedin{
+   color: #0077B5 ;
+}
+.fa-twitter{
+    color:#1DA1F2 ;
+}
+
+.Copyright{
+    color: black;
+}
+
+/*Application page Css*/
+
+form{
+    width: 55%;
+    
+}
+
+.form-group{
+    margin: 10px auto;
+}
+
+input[type='Text'],
+input[type='Date'],
+input[type='Email'],textarea,select{
+ display: block;
+ padding: 10px;
+ width:60%;
+ border-radius: 10px;
+ border: 2px solid rgba(171, 102, 102, 0.52);
+ margin-top: 3px;
+ 
+}
+input[type='Text']:hover,
+input[type='Date']:hover,
+input[type='Email']:hover,
+textarea:hover,
+select:hover{
+
+border: 2px solid red;
+}
+
+.btn{
+    padding: 10px 15px;
+    background-color: rgb(79, 223, 79);
+    color: white;
+    border: 2px solid ;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
+}
