@@ -50,10 +50,15 @@ body{
 margin: 30px auto;
 padding: 30px;
 border-radius: 5px;
+color: white;
 }
 
 .Introduction{
     background-color:rgb(88, 88, 163);
+    margin: 30px auto ;
+    padding: 30px;
+    border-radius: 5px;
+    
 }
 
 
@@ -146,10 +151,7 @@ video{
 
 .audio {
     margin: 25px auto;
-    background-colo: ;
     border-radius: 10px;
-
-
 }
 
 .audio h2{

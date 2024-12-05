@@ -1,73 +1,43 @@
-<!--Decleration-->
-<!DOCTYPE html> 
-<!--The root element starts from here-->    
-<html lang="en">    
-    <!--The Header part-->            
+<!DOCTYPE html>  
+<html lang="en">             
 <head>              
-    <meta charset="UTF-8">       
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">        
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=Lato:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Roboto:ital,wght@0,400;0,500;0,900;1,400;1,500;1,900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6646122e88.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
     <title>My Static Website</title>
- 
-    <!--Css Linking-->
-    <link rel="stylesheet" href="style.css" type="text/css">
-     </head>   
-
-<link
- rel="stylesheet" href="https://use.fontawesome.com/release/v5.3.1/css/all.css"
-integrity="sha384-mzrmE5qonljuremFsqcp1sB46JvROS7bzs3I02EmfFsd15uHvIt+Y8vEf7N7fWAU"
-crossorigin="anonymous"
-/>
-
-    <!--To write css  and call the name of the tag -->
-    <!-- Css: Cascading Style sheet 
-     Rendering From Top to Bottom
-    -->
-
-<Style>
-    body  { background-color: rgb(139, 112, 165);
-
-    }
-         header { background-color: rgb(199, 157, 78);
-
-         }   
-</Style>
-
-<!--This is for example about Java Script Writting in the html code  -->
-<script>
-    console.log('I Love Programming')
-    console.log('This is for ecample about Java Script')
-</script>
-
-<!--To write style.css on internal in the html head code , externally or another page -->
 </head>
 
 <div>
 <body>
-    <!---->
-    <!--This is header section-->
-    <!--This is an html code-->
 
-<div>
-     <header style="background-color: orange;">       
- <h1  id="title-1" class="title" style="font-size: 64px;">     
-        <strong>
-          <span style="color: rgb(red, green, blue);"> Welcome To My Class </span>
-        </strong>     
-    </h1>
+<div class="title-1 title">
+     <header>       
+    <h1>CSET</h1>
     </header>
 </div>
     
 <main>
 
-    <div>
+    <div class="Introduction">
         <h1>Introduction</h1>
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Asperiores culpa quidem explicabo? Deserunt odit veniam necessitatibus enim placeat voluptas delectus totam ipsum? Iusto aperiam autem eaque vero laudantium ut inventore.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur 
+        adipisicing elit. Asperiores culpa quidem explicabo? 
+        Deserunt odit veniam necessitatibus enim placeat voluptas
+        delectus totam ipsum? Iusto aperiam autem eaque vero laudantium
+        ut inventore Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+        Eos corporis unde, officiis, deleniti esse quaerat temporibus, culpa 
+        repudiandae odio nemo debitis qui tempore est. Corrupti sint ea cumque iste accusamus.</p>
     </div>
 
-    <div>
-        <!--list 
-You have to know order about ordered list and un-ordered list
--->
+<div class="page-section tech-1">
 <h1>Frontend Technologies</h1>
 <ul>
     <li>HTML</li>
@@ -76,18 +46,28 @@ You have to know order about ordered list and un-ordered list
     <li>React</li>
 </ul>
 
-<h4>The most popular Js Libraris</h4>
+<img src="./assets/images/html.png" style="width: 10%;"alt="HTML LOGO" title="Html Logo"/>
+<img src="./assets/images/css_logo.png" style="width: 10%;"alt="CSS LOGO" title="Css Logo"/> 
+<img src="assets/images/js_logo.png" style="width: 10%;" alt="Java Script"title=" Javascript Logo"/>
+</div>
 
-<ol>
+
+
+
+<div class="page-section tech-2">
+<h1>The most popular Js Libraris</h1>
+
+<ul>
     <li>React</li>
     <li>Vue</li>
     <li>Angular</li>
+</ul>
+<img src="assets/images/react_logo.png" alt="react_logo">
+<img src="assets/images/vue.png" alt="vue.js">
+<img src="assets/images/angular.png" alt="angular">
+</div>
 
-</ol>
-
-    </div>
-
-    <div>
+    <div class="page-section tech-3">
         <h1>Backend Technologies</h1>
         <ul>
             <li>Node</li>
@@ -96,108 +76,20 @@ You have to know order about ordered list and un-ordered list
             <li>Java</li>
             <li>Ruby</li>
         </ul>
+        <img src="assets/images/node_logo.png" alt="node_logo">
+        <img src="assets/images/python.png" alt="python">
+        <img src="assets/images/php.png" alt="PHP">
+        <img src="assets/images/java.png" alt="java">
+        <img src="assets/images/ruby.png" alt="ruby">
     </div>
   
-    <div>
-<h1>This Is heading</h1>
-<h2>this is heading 2</h2>
-<h3>This is heading 3</h3>
-<h4>This is heading 4</h4>
-<h5>This is heading 5</h5>
-<h6>This is heading 6</h6>
-    </div>  
-
-    <!--Lets see self closing elements-->
-
-    <span>Some text</span> <br />
-    <span>another text</span>
-    <hr />
-    <p>Learn more</p>
-    <input type="email"> <button>Submit</button>
-    <img src="./assets" alt="">
-    <div>
-
-<!--Blocking and inlineelement
-After this you have to know blocking and Non Block elements
- -->
-
-<h1>This going to be title</h1> 
-<span style="background-color: white;">This is gong to be Title</span>
-<p>This is paragraph</p>
 
 
-<!--Learning about link-->
-
-
-<!--Image-->
-
-<img src="./assets/images/html.png" style="width: 10%;"alt="HTML LOGO" title="Html Logo"/>
-<img src="./assets/images/css_logo.png" style="width: 10%;"alt="CSS LOGO" title="Css Logo"/> 
-<img src="assets/images/js_logo.png" style="width: 10%;" alt="Java Script"title=" Javascript Logo"/>
-
-
-
-<!--Formatting 
-Like Deleting
-Inserting
-Em
-ins
-del
-mark
---> 
-<div>
-<strong>
-<Span style="color: green;">Welcome</Span>
-
-
-<em>
-<Span style="color: yellow;">To My </Span>
-</em>
-
-
-<span style="color: red;">Class </Span> 
-</strong>
-
-</div>
-
-<!--Poem Formatting-->
-
-<pre>    
-    <ins>abcdefg</ins> <!--insert-->
-    <del>abcdef</del> <!--Delet-->
-     abcde
-</pre>
-
-
-<!--Normal writting of html -->
-<p>Sulpheric acid is very explosive inorganic compound
-H2SO4 <br> 
-H<sub>2</sub><sub>SO</sub><sub>4</sub> </p> 
-
-
-<!--Chemical formulas-->
-2^10 = 1024 <br>
-2<sup>10</sup> = 1024
-
-
-<!--Day 2 Semantic Elements 'Meaning of tags'-->
-
-<!-- Day 3 Web icons-->
-
-<!-- Day 3 Html Entities like $ @ & they have a special meaning we use different Methods 
-Learnig Different Symbols-->
-
-<p>It is Hard to have empty space on htmal      .
-This Does Note Work. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This May work</p>
-
-<p>4 &gt; 3 </p>
-<p>10 &lt; 50</p>
-<p>50 &cent; &gt; 25&cent;</p>
 
 <!--Audio and Videos Importing from the library-->
-
-<div >
-    <h1>Videos</h1>
+<h1>Videos</h1>
+<div class="video-wrapper video">
+   
     <video width="640" height="360" src="./assets/videos/js-project.mp4" controls></video>
 </div>
 
@@ -211,28 +103,24 @@ This Does Note Work. &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This May work</p>
     <h2>Podcast Episcod 2</h2>
     <audio src="./assets/audios/audio_2.mp3" controls></audio>
 </div>
-
 <div>
-    <h1> My Youtube Videos</h1>
+    <h2>Podcast Episcod 3</h2>
+    <audio src="./assets/audios/audio_2.mp3" controls></audio>
+</div>
+<div>
+    <h2>Podcast Episcod 4</h2>
+    <audio src="./assets/audios/audio_2.mp3" controls></audio>
+</div>
+<h1> My Youtube Videos</h1>
+<div class="video-wrapper video">
+  
     <div>
         <iframe width="640" height="360" src="https://www.youtube.com/embed/PFSptsvOWpM" title="Build a Complete Personal Portfolio Website Using Only HTML And CSS | Pure HTML And CSS" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
 </div>
 
-<!--Under Utilized HTMLTags This Are The most forgotten tags
-It Helps To put a stastical Data like Graph   -->
-<!--Foe Example 
-meter
-progress -> it shows the progress of something in the web
-details -> 
-adress
-tittle -> attribute
-blockquote
-Var
-Keyboard tag/kbd
--->
 
-<div>
+<div class="page-section meters">
     <h2>Meter Tag That  Might be used for stastical Expressinons </h2>
   Disk A  <meter value="25" min="0" 
     max="100"></meter> <br>
@@ -244,7 +132,8 @@ Keyboard tag/kbd
     max="100"></meter>
 </div>
 
-<div>
+
+<div class="page-section progress">
     <h2>Progress</h2>
 
    HTML <progress value="50" min="0" 
@@ -258,7 +147,7 @@ Keyboard tag/kbd
 
 </div>
 
-<div>
+<div class="page-section detail-summary">
     <Details>
 <summary>HTML</summary>
 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -282,23 +171,8 @@ Keyboard tag/kbd
 </div>
 
 
-<!--Its About Var and it explains that we can write a code in html -->
-<div>
-    <pre>
-        <var> <span> const </span>  gravity = 9,91</var>
-        <var> <span> let </span> mass = 50</var>
-        <var> <span> const </span> weight = gravity * mass</var>
-    </pre>
-</div>
-
-
-<!--Kbd-->
-<kbd>
-  ctrl + c <br>
-  ctrl + shift + Enter
-</kbd>
-
  <!--Adress-->
+ <div class="page-section address"> 
 <address>
     Addis Ababa Ethiopia <br>
     POBOX 1000 <br>
@@ -307,198 +181,17 @@ Keyboard tag/kbd
 </address>
 </div>
 
-<!--HTML Form-->
-
-<div>
-<form >
-       
-    <div>
-    <label for="first name">firstname</label>
-    <input type="text" id="first name" placeholder="Firstname">
-    </div>
-</form>
-</div>
-
-<div>
-    <form >
-        <div>
-        <label for="lastname">lastname</label>
-        <input type="text" id="lastname" placeholder="Lastname"/>
-        </div>
-    </form>
-    </div>
-
-    <div>
-        <form >
-            <div>
-            <label for="email"> Email</label>
-            <input type="password" id="email" placeholder="Your email"/>
-            </div>
-        </form>
-        </div>
-
-        <div>
-            <form >
-                <div>
-                <label for="birthyear">birthyear</label>
-                <input type="datetime-local" id="birthyear"/>
-                </div>
-            </form>
-            </div>
-
-            <div>
-                <label for="color"> Your Favorite Color</label>
-                <input type="color" name="" id="color">
-            </div>
- <!--we are learning about making form using Tags Like 
- Form 
- select - used for coosing country 
- input - to identify the type of the form
- lable - to identify the name of the input 
-            which shows on the web side
- 
- -->
-
-<div>
-    <form>
-    <p>What are your skills</p>
-    <input type="checkbox" name="HTML" id="HTML">
-    <label for="HTML">HTML</label> <br>
-
-    <input type="checkbox" name="CSS" id="CSS">
-    <label for="CSS">CSS</label> <br>
-
-    <input type="checkbox" name="Js" id="Javascript">
-    <label for="Js">Js</label> <br>
-
-    <input type="checkbox" name="React" id="React">
-    <label for="React">React</label>
-</div>
-
-<div>
-    <p>Gender</p>
-    <input type="radio" name="gender" id="female">
-    <label for="female">Female</label> <br>
-
-    <input type="radio" name="gender" id="male">
-    <label for="male">Male</label> <br>
-
-    <input type="radio" name="gender" id="Other">
-    <label for="Other">Other</label>
-
-</div>
-
-<div>
-    <p>Select Your Country</p>
-    <select name="Country" id="Country">
-        <option value=">--Select Your Country--< </option>
-        <option value="Ethiopia">Ethiopia</option>
-        <option value="Eriteria">Eriteria</option>
-        <option value="Kenya">Kenya</option>
-        <option value="S.Sudan">Sudan</option>
-    </select>
-</div>
-
-<div>
-<p>Select Your Cource</p>
-    <select name="Cource" id="Cource">
-        <option value="Python">Python</option>
-        <option value=""></option>
-    </select>
-</div>
-
-<div>
-<label for="Message">Leave Your Message</label> <br>
-    <textarea name="Message" 
-    id="Message" cols="80" rows="10"></textarea>
-</div>
-
-
-<div>
-    <input type="file" name="file" id="file">
-</div>
-
-<!--It is a form tipe we used it for 
-    accepting terms and conditions-->
-
-    <input type="checkbox"> 
-    <small> I 
-        agreed that all the
-        information
-        i have provided true 
-        and it belonges to me
-     </small>
-    </div>
-
-    <div>
-        <input type="submit" value="submit">
-    </div>
-</form>
-
-<!--Its about Table Forming-->
-<!--By using tags like 
-Table - generally to form the table
-Thead - the head part of the table
-Tbody - the main parts almost all contents
-tr- the row part
-td- 
--->
-
-<!--Its about Table Forming-->
-<div>
-    <h3>Programming Challenges</h3>
-    <p>some of the challenges that has been created by Ephrem
-        spend thousends of houes
-    </p>
-    
-    <table>
-        <thead>
-            <tr>
-                <td>Challengs</td>
-                <td>Days</td>
-                <td>Time</td>
-                <td>Stars</td>
-                <td>URL</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-            <td>30 Days of Python</td>
-            <td>30</td>
-            <td>Septmber 2024</td>
-            <td>4.6k</td>
-            <td>Link</td>
-        </tr>
-
-        <tr>
-            <td>30 Days of React</td>
-            <td>30</td>
-            <td>october 2024</td>
-            <td>5.6k</td>
-            <td>Link</td>
-        </tr>
-
-        <tr>
-            <td>30 Days of HTML</td>
-            <td>30</td>
-            <td>November 2024</td>
-            <td>6.6k</td>
-            <td>Link</td>
-        </tr>
-        </tbody>
-    </table>
-</div>
 
 </main>
 
  <!--This is footer side-->
-<footer style="background-color: orange;">
+<footer>
  <!--icons linking -->   
-<a href="https://github.com/Ephrem-getachew" target="_blank">Github</a>
+<a href="https://github.com/Ephrem-getachew" target="_blank"></a>
 <i class="fa-brands fa-github"></i>
-<a href="https://www.linkedin.com/in/ephremxyx" target="_blank">linkedin</a>
+<a href="https://www.linkedin.com/in/ephremxyx" target="_blank"></a>
 <i class="fa-brands fa-linkedin"></i>
-<a href="https://www.instagram.com/ephremxyz" target="_blank">instagram</a> <br>
+<a href="https://www.instagram.com/ephremxyz" target="_blank"></a> <br>
 <i class="fa-brands fa-instagram"></i>
 
 <div>
