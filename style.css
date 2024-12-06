@@ -40,7 +40,7 @@ main{
 
 body{
     
-    font-family:"Noto Sans Mono";
+    font-family:"Inconsolata";
     line-height: 160%;
     margin: 0 0 150px 0;
 
@@ -50,7 +50,7 @@ body{
 margin: 30px auto;
 padding: 30px;
 border-radius: 5px;
-color: white;
+
 }
 
 .Introduction{
@@ -102,7 +102,7 @@ color: white;
 table,td,th{
 border: 1px solid rgb(135, 80, 236);
 border-collapse: collapse;
-font-weight: ;
+
 }
 
 table{
@@ -237,11 +237,11 @@ footer{
 
 form{
     width: 55%;
-    
 }
 
 .form-group{
     margin: 10px auto;
+    color: black;
 }
 
 input[type='Text'],
@@ -253,7 +253,6 @@ input[type='Email'],textarea,select{
  border-radius: 10px;
  border: 2px solid rgba(171, 102, 102, 0.52);
  margin-top: 3px;
- 
 }
 input[type='Text']:hover,
 input[type='Date']:hover,
